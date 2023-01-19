@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Vazir;
+    src: url("");
+    src: url('myFonts/ttf/Vazirmatn-Regular.ttf') format("truetype"),
+        url("myFonts/webfonts/Vazirmatn-Regular.woff2") format("woff2");
+    font-weight: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('myFonts/ttf/Vazirmatn-Bold.ttf') format("truetype"),
+        url("myFonts/webfonts/Vazirmatn-Bold.woff2") format("woff2");
+    font-weight: bold;
+}
+*{
+    font-family: Vazir;
+    font-weight: 200;
+    word-wrap: break-word;
+}
+.text-center-custom {
+    text-align: center;
+}
+.float-right{
+    float: right;
+}
+#tohomepage-link{
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+#generateBtn{
+    display: block;
+    background-color: rgb(199, 36, 15);
+    color: #eee;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    font-family: Vazir;
+}
+#generateBtn:hover{
+    cursor: pointer;
+
+}
+.generation-label{
+    color: rgb(195, 29, 29);
+    margin-right: 20px;
+}
+canvas{
+    direction: rtl;
+}
