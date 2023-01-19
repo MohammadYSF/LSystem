@@ -60,7 +60,7 @@ function SerpineskiTriangle(){
     this.turtle=function(){
       background(51);
       resetMatrix();
-      translate(400, height - 100);
+      translate(100, height - 100);
       stroke(255 , 150);
       strokeWeight(1);
       for (let i = 0 ; i < this.sentence.length ; i ++) {
